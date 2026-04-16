@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bp5khwq21kajw"]
+
+[ext_resource type="Texture2D" uid="uid://cdajn0qboe580" path="res://Rocky Roads/Enemies/fish.png" id="1_l6d1a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uecl6"]
+size = Vector2(45.75, 46)
+
+[node name="CharacterBody2D4" type="CharacterBody2D" unique_id=2078368749]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1313820066]
+texture_filter = 1
+position = Vector2(972.6, 632.753)
+scale = Vector2(-2.4, 2.417)
+texture = ExtResource("1_l6d1a")
+region_enabled = true
+region_rect = Rect2(0, 0, 28.799988, 18.800003)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2146389429]
+position = Vector2(975.4472, 633.503)
+shape = SubResource("RectangleShape2D_uecl6")
